@@ -1,0 +1,73 @@
+.wrapAccount {
+    background-color: var(--background-color);
+    padding: 20px 0px;
+}
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+}
+
+.containerHeader {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.containerContent {
+    padding: 20px 0;
+}
+
+
+
+
+.containerContentHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.containerContentHeaderItem :nth-child(1){
+    color: black;
+    font-weight: 600;
+    padding:  2px 5px;
+    border-right: 1px solid rgb(65, 65, 65);
+}
+
+.containerContentHeader :nth-child(2) {
+    color: blue;
+    cursor: pointer;
+}
+
+.containerContentHeaderItem :nth-child(2){
+    color: var(--text-color);
+    padding:  2px 5px;
+
+    /* font-weight: 600; */
+}
+
+.containerContentHeaderItem{
+ 
+}
+
+.containerContentBody{
+    padding-left: 5px;
+    font-size: 1.6rem;
+
+}
+
+.containerContentBody :nth-child(2){
+    color: black;
+    font-weight: 600;
+}
+.containerContentBody :nth-child(3){
+    padding: 2px 5px;
+    border: 1px solid var(--active-color);
+    width: 80px;
+    color: var(--active-color);
+}
+
+.containerContentBodyItem{
+    margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+.name-column{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.custom-table .ant-table-cell[data-column-key="name"] {
+    max-width: 200px; /* Đặt giới hạn chiều rộng tối đa của cột "Name" */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
